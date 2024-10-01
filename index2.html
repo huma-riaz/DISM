@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd-file</title>
+</head>
+<body>
+    <script>
+
+        // FOR:
+        for(a=1; a<=2; a++){
+            document.write('Welcome', a);
+            document.write('<br><br>')
+        };
+
+
+        // MY FUNCTION:
+        function hello(name){
+            document.write('HELLO ' + name);
+        }; 
+        hello('EVERYONE');
+        document.write('<br><br>')
+
+
+        // FUNCTION ADD:
+        function add(a,b){
+            return a+b;
+        }
+        let result = add(15,15)
+        document.write(result);
+        document.write('<br><br>');
+
+
+        // FUNCTION SUB:
+        function sub(a,b){
+            return a-b;
+        }
+        let res = sub(20,10);
+        document.write(res);
+        document.write('<br><br>');
+
+
+        // FUNCTION:
+        let abc= function(){
+            document.write('MY FUNCTION');
+        }
+        abc();
+        document.write('<br><br>');
+
+
+        //ARROW FUNCTION:
+        let arrowFunc = () => {
+            document.write('Arrow Function');
+        };
+        const add = (val1,val2) => val1+val2 
+            document.write(add(15,15));
+        
+
+
+</script>
+
+
+</body>
+</html>
